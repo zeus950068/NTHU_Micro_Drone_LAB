@@ -1,3 +1,6 @@
 [submodule "CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/gap_sdk"]
 	path = CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/gap_sdk
 	url = https://github.com/GreenWaves-Technologies/gap_sdk.git
+[submodule "CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/gap8_openocd"]
+	path = CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/gap8_openocd
+	url = https://github.com/GreenWaves-Technologies/gap8_openocd.git
