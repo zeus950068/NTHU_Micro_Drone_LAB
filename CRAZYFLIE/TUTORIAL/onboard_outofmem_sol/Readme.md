@@ -97,7 +97,6 @@ make clean all run PMSIS_OS=freertos platform=board
 
 ---
 ### gap8_openocd
-下載gap8_openocd
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap8_openocd.git
 ```
@@ -108,7 +107,6 @@ make clean all run PMSIS_OS=freertos platform=board
 
 ## 2. let cfloader run 0% to 100%
 ### aideck-gap8-bootloader
-下載 aideck-gap8-bootloader
 ```bash
 git clone https://github.com/bitcraze/aideck-gap8-bootloader.git
 ```
