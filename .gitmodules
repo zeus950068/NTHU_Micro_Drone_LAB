@@ -4,3 +4,6 @@
 [submodule "CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/gap8_openocd"]
 	path = CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/gap8_openocd
 	url = https://github.com/GreenWaves-Technologies/gap8_openocd.git
+[submodule "CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/aideck_gap8_bootloader"]
+	path = CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/aideck_gap8_bootloader
+	url = https://github.com/bitcraze/aideck-gap8-bootloader.git
