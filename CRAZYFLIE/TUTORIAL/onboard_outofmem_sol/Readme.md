@@ -62,8 +62,42 @@ Configure the SDK and go into the update firmware.c
 ```bash
 cd gap_sdk/
 source configs/ai_deck.sh
-cd gap_sdk/examples/gap8/utils/firmware_update/simple
 ```
+
+Our modules (gapy runner) require a few additional Python packages that you can install with this command from GAP SDK root folder:
+```bash
+pip3 install -r requirements.txt
+pip3 install -r doc/requirements.txt
+```
+
+Once in the SDK, run ``make help`` to get commands and get SDK ready to use.
+```bash
+$ make help
+=================== GAP SDK ===================
+
+Main targets:
+ - clean       : clean the SDK
+ - all         : build the whole SDK with all tools
+ - minimal     : get latest sources for all rtos and libs
+ - gvsoc       : build GVSOC simulation platform
+ - openocd.all : build OpenOCD tools to run simulation on boards
+ - nntool      : build nntool
+```
+
+Then, depends on what you need, build the SDK accordingly (suggest use all)
+```bash
+make all
+```
+
+*Finally, go into the folder where yje update_firmware.c code is and run it*
+```bash
+cd gap_sdk/examples/gap8/utils/firmware_update/simple
+make clean all run PMSIS_OS=freertos platform=board
+```
+
+
+
+
 
 ### gap8_openocd
 下載gap8_openocd
