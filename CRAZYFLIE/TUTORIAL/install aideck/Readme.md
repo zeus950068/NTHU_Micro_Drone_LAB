@@ -48,3 +48,9 @@ step1:
 step2:
 
 ![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/install%20aideck/build%20firmware(2).png)
+
+
+## 4. Gap8 bootloader
+> You will need to flash the bootloader on the GAP8 separately. This can only be done from a native linux computer or virtual machine (not WSL) with a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink).
+
+:+1:You only need to do this once and then you can enjoy the benefits of over-the-air flashing.
