@@ -54,3 +54,10 @@ step2:
 > You will need to flash the bootloader on the GAP8 separately. This can only be done from a native linux computer or virtual machine (not WSL) with a jtag enabled programmer (Olimex ARM-USB-TINY-H JTAG or Jlink).
 
 :+1:You only need to do this once and then you can enjoy the benefits of over-the-air flashing.
+
+Clone, build and flash the bootloader with an Olimex ARM-USB-TINY-H JTAG or a Jlink using the following commands:
+```bash
+git clone https://github.com/bitcraze/aideck-gap8-bootloader.git
+cd aideck-gap8-bootloader
+docker run --rm -it -v $PWD:/module/ --device /dev/ttyUSB0 --privileged -P bitcraze/aideck /bin/bash -c 'export GAPY_OPENOCD_CABLE=interface/ftdi/olimex-arm-usb-tiny-h.cfg; source /gap_sdk/configs/ai_deck.sh; cd /module/;  make all image flash'
+```
