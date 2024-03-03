@@ -31,5 +31,9 @@ pip3 install -e .
 
 ## 3. Update Crazyflie and AIdeck firmware (USING CFCLIENT)
 step1: 
+
 ![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/install%20aideck/build%20firmware(1).png)
+
+step2:
+
 ![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/install%20aideck/build%20firmware(2).png)
