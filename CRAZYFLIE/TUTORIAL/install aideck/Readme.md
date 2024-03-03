@@ -30,7 +30,7 @@ pip3 install -e .
 
 
 ## 3. Update Crazyflie and AIdeck firmware (USING CFCLIENT)
-> Make sure that only the AI-deck is attached to the Crazyflie, with no other deck. 
+>  Make sure that only the AI-deck is attached to the Crazyflie, with no other deck. 
 step1: 
 
 ![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/install%20aideck/build%20firmware(1).png)
