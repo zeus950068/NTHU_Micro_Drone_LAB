@@ -94,9 +94,10 @@ make all
 cd gap_sdk/examples/gap8/utils/firmware_update/simple
 make clean all run PMSIS_OS=freertos platform=board
 ```
-#
-#
-#
+
+
+
+   
 ### gap8_openocd
 下載gap8_openocd
 ```bash
