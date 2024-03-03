@@ -4,10 +4,61 @@
 
 ## 1. Reset devices(update firmware to free malloc)
 ### gap_sdk
-下載gap_sdk
+OS Requirements installation
+```bash
+sudo apt-get install -y \
+    autoconf \
+    automake \
+    bison \
+    build-essential \
+    cmake \
+    curl \
+    doxygen \
+    flex \
+    git \
+    gtkwave \
+    libftdi-dev \
+    libftdi1 \
+    libjpeg-dev \
+    libsdl2-dev \
+    libsdl2-ttf-dev \
+    libsndfile1-dev \
+    graphicsmagick-libmagick-dev-compat \
+    libtool \
+    libusb-1.0-0-dev \
+    pkg-config \
+    python3-pip \
+    rsync \
+    scons \
+    texinfo \
+    wget
+```
+
+Python Package Management
+```bash
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 10
+```
+
+Download and install the toolchain
+```bash
+git clone https://github.com/GreenWaves-Technologies/gap_riscv_toolchain_ubuntu.git
+```
+
+Install the toolchain (this may require to launch the script through sudo):
+```bash
+cd gap_riscv_toolchain_ubuntu
+./install.sh
+```
+
+> [!TIP]
+> You can go to previous folder cd..
+
+Clone the actual gap_sdk repository
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap_sdk.git
 ```
+
+Configure the SDK and go into the update firmware.c
 ```bash
 cd gap_sdk/
 source configs/ai_deck.sh
