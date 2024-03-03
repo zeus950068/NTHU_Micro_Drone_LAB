@@ -7,3 +7,6 @@
 [submodule "CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/aideck_gap8_bootloader"]
 	path = CRAZYFLIE/TUTORIAL/onboard_outofmem_sol/aideck_gap8_bootloader
 	url = https://github.com/bitcraze/aideck-gap8-bootloader.git
+[submodule "CRAZYFLIE/ONBOARD_PROJECT/examples"]
+	path = CRAZYFLIE/ONBOARD_PROJECT/examples
+	url = https://github.com/bitcraze/aideck-gap8-examples.git
