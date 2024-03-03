@@ -11,7 +11,7 @@ pip3 install --upgrade pip
 
 
 ## 2. install cfclient from latest release
-Each release of the client is pushed to the -[pypi repository](https://pypi.org/), so it can be installed with pip:
+Each release of the client is pushed to the [pypi repository](https://pypi.org/), so it can be installed with pip:
 ```bash
 pip3 install cfclient
 ```
@@ -27,3 +27,9 @@ All other dependencies on linux are handled by pip so to install an editable cop
 ```bash
 pip3 install -e .
 ```
+
+
+## 3. Update Crazyflie and AIdeck firmware (USING CFCLIENT)
+step1: 
+![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/install%20aideck/build%20firmware(1).png)
+![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/install%20aideck/build%20firmware(2).png)
