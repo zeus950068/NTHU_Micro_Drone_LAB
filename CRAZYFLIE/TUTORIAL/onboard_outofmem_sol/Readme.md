@@ -2,8 +2,8 @@
 
 # Onboard out of memory solve
 
-## Reset devices(update firmware to free malloc)
-### 1. gap_sdk
+## 1. Reset devices(update firmware to free malloc)
+### gap_sdk
 下載gap_sdk
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap_sdk.git
@@ -14,7 +14,7 @@ source configs/ai_deck.sh
 cd gap_sdk/examples/gap8/utils/firmware_update/simple
 ```
 
-### 2. gap8_openocd
+### gap8_openocd
 下載gap8_openocd
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap8_openocd.git
@@ -24,8 +24,8 @@ export GAPY_OPENOCD_CABLE=~/Desktop/<path/to/gap8_openocd>/gap8_openocd/tcl/inte
 make clean all run PMSIS_OS=freertos platform=board
 ```
 
-## let cfloader run 0% to 100%
-### 3. aideck-gap8-bootloader
+## 2. let cfloader run 0% to 100%
+### aideck-gap8-bootloader
 下載 aideck-gap8-bootloader
 ```bash
 git clone https://github.com/bitcraze/aideck-gap8-bootloader.git
