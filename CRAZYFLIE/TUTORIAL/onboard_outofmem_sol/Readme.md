@@ -92,6 +92,11 @@ make all
 *Finally, go into the folder where yje update_firmware.c code is and run it*
 ```bash
 cd gap_sdk/examples/gap8/utils/firmware_update/simple
+```
+```bash
+export GAPY_OPENOCD_CABLE=~/Desktop/<path/to/gap8_openocd>/gap8_openocd/tcl/interface/ftdi/olimex-arm-usb-tiny-h.cfg
+```
+```bash
 make clean all run PMSIS_OS=freertos platform=board
 ```
 
@@ -102,6 +107,8 @@ git clone https://github.com/GreenWaves-Technologies/gap8_openocd.git
 ```
 ```bash
 export GAPY_OPENOCD_CABLE=~/Desktop/<path/to/gap8_openocd>/gap8_openocd/tcl/interface/ftdi/olimex-arm-usb-tiny-h.cfg
+```
+```bash
 make clean all run PMSIS_OS=freertos platform=board
 ```
 
