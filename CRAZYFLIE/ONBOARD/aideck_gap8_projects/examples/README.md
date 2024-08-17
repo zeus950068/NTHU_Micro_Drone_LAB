@@ -1,4 +1,6 @@
-<h1 style="font-size: 100px;"> Development Log </h1>
+#Development Log
+##Development Log
+###Development Log
 
 | Editor   | Date       | Folder                        | Progress                                    | Problems                                  |
 |----------|------------|------------------------------|---------------------------------------------|-------------------------------------------|
