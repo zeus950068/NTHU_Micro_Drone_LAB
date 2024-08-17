@@ -1,4 +1,4 @@
-<h1 style="font-size: 16px;"> Development Log </h1>
+<h1 style="font-size: 100px;"> Development Log </h1>
 
 | Editor   | Date       | Folder                        | Progress                                    | Problems                                  |
 |----------|------------|------------------------------|---------------------------------------------|-------------------------------------------|
