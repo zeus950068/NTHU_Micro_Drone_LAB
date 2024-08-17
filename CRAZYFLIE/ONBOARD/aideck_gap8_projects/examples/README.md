@@ -1,4 +1,5 @@
-# Development Log
+<h1 style="font-family: Arial, sans-serif; color: #4CAF50; text-align: center;">🌟 Development Log 🌟</h1>
+
 
 | Editor   | Date       | Folder                        | Progress                                    | Problems                                  |
 |----------|------------|------------------------------|---------------------------------------------|-------------------------------------------|
