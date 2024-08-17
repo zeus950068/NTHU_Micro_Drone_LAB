@@ -1,8 +1,8 @@
-#Development Log
+# Development Log
 
-##Development Log
+## Development Log
 
-###Development Log
+### Development Log
 
 | Editor   | Date       | Folder                        | Progress                                    | Problems                                  |
 |----------|------------|------------------------------|---------------------------------------------|-------------------------------------------|
