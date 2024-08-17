@@ -1,4 +1,4 @@
-<h1 style="font-size: 36px;">🚀 Development Log 📝</h1>
+<h1 style="font-size: 16px;"> Development Log </h1>
 
 | Editor   | Date       | Folder                        | Progress                                    | Problems                                  |
 |----------|------------|------------------------------|---------------------------------------------|-------------------------------------------|
