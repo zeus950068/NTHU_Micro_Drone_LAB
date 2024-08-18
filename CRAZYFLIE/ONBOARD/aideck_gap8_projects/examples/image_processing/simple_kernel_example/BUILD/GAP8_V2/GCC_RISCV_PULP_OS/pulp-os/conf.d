@@ -1,4 +1,4 @@
-/home/user/Desktop/Bitcraze/aideck-gap8-examples/examples/image_processing/simple_kernel_example/BUILD/GAP8_V2/GCC_RISCV_PULP_OS/pulp-os/conf.o: \
+/home/user/Desktop/NTHU_Micro_Drone_LAB/CRAZYFLIE/ONBOARD/aideck_gap8_projects/examples/image_processing/simple_kernel_example/BUILD/GAP8_V2/GCC_RISCV_PULP_OS/pulp-os/conf.o: \
  /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/gap8/rtos/pulp/pulp-os/kernel/conf.c \
  /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/install/GAP8_V2/include/rt/chips/gap_rev1/config.h \
  /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/install/GAP8_V2/include/archi/pulp_defs.h \
