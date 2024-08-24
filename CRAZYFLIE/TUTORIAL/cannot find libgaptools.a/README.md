@@ -12,5 +12,10 @@ sudo apt-get update
 sudo apt-get install libopencv-dev
 ```
 ## 3. 下載上方Makefile
-
+Makefile路徑：
+```bash
+cd /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/libs/frame_streamer
+```
 ## 4. 下載上方pmsis_tools_frame_streamer.cpp
+pmsis_tools_frame_streamer.cpp位置:
+cd /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/libs/frame_streamer/python
