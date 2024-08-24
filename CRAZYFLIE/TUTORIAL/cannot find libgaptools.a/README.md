@@ -18,4 +18,6 @@ cd /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/libs/frame_s
 ```
 ## 4. 下載上方pmsis_tools_frame_streamer.cpp
 pmsis_tools_frame_streamer.cpp位置:
+```bash
 cd /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/libs/frame_streamer/python
+```
