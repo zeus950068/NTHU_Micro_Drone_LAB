@@ -6,3 +6,8 @@ https://github.com/pulp-platform/AI-deck-workshop/tree/main/Hands-on/Session%204
 sudo apt-get update
 sudo apt-get install libsdl2-dev
 ```
+## 2. 安装 OpenCV
+```bash
+sudo apt-get update
+sudo apt-get install libopencv-dev
+```
