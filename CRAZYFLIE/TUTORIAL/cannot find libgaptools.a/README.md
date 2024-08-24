@@ -1,3 +1,3 @@
-**ps. 這是一個針對crazyflie燒錄img files時因記憶體不足無法燒錄的解決方法**
+**ps. 這是一個針對無法執行AI-deck Workshop Session 4 https://github.com/pulp-platform/AI-deck-workshop/tree/main/Hands-on/Session%204/GAP8/wifi_jpeg_streamer的解決方法**
 
 # Onboard out of memory solve
