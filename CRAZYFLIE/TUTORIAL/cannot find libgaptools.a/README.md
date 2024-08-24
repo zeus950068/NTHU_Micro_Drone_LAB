@@ -11,12 +11,12 @@ sudo apt-get install libsdl2-dev
 sudo apt-get update
 sudo apt-get install libopencv-dev
 ```
-## 3. 下載上方Makefile
+## 3. 下載上方Makefile並取代原本的
 Makefile路徑：
 ```bash
 cd /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/libs/frame_streamer
 ```
-## 4. 下載上方pmsis_tools_frame_streamer.cpp
+## 4. 下載上方pmsis_tools_frame_streamer.cpp並取代原本的
 pmsis_tools_frame_streamer.cpp位置:
 ```bash
 cd /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/libs/frame_streamer/python
