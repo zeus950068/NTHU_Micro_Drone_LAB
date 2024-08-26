@@ -135,7 +135,7 @@ Setting up docker and the autotiler
 sudo docker run --rm -it --name myAiDeckContainer bitcraze/aideck
 ```
 
-<span style="color: red;">這段文字是紅色的。</span>
+<font color="red">Open a NEW terminal (原本的先不要關）</font>
 Open a NEW terminal (原本的先不要關）
 ```bash
 ```
