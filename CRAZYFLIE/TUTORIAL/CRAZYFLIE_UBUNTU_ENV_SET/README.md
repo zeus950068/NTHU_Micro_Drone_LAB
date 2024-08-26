@@ -224,9 +224,8 @@ make -j 12
 ```
 
 > [!TIP]
-> To set up wifi as access point, Download waggle-drone_defconfig
+> To set up wifi as access point, Download [waggle-drone_defconfig]((https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/CRAZYFLIE_UBUNTU_ENV_SET/waggle-drone_defconfig))
 
-**Download waggle-drone_defconfig [here](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/CRAZYFLIE_UBUNTU_ENV_SET/waggle-drone_defconfig)**
 ```bash
 make waggle-drone_defconfig
 make -j 12
