@@ -213,3 +213,14 @@ cfloader flash aideck_gap8_wifi_img_streamer_with_ap.bin deck-bcAI:gap8-fw -w ra
 > The bin file is at https://github.com/bitcraze/aideck-gap8-examples/releases
 
 ## 8. Bitcraze ([crayflie-firmware](https://github.com/bitcraze/crazyflie-firmware))
+```bash
+cd ~/Desktop/Bitcraze
+sudo apt-get install make gcc-arm-none-eabi
+sudo apt install build-essential libncurses5-dev
+git clone --recursive https://github.com/bitcraze/crazyflie-firmware.git
+cd crazyflie-firmware/
+make cf2_defconfig
+make -j 12
+```
+
+## 9. Bitcraze ([aideck-gap8-examples](https://github.com/bitcraze/aideck-gap8-examples))
