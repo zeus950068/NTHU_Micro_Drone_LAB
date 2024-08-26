@@ -20,10 +20,13 @@ sudo ubuntu-drivers install nvidia:535
 ```
 
 ## Install USB Permission
+The following steps make it possible to use the USB Radio and Crazyflie 2 over USB without being root.
 ```bash
 sudo groupadd plugdev
 sudo usermod -a -G plugdev $USER
 ```
+> [!NOTE]
+> You will need to log out and log in again in order to be a member of the plugdev group.
 
 Copy-paste the following in your console, this will create the file /etc/udev/rules.d/99-bitcraze.rules:
 ```bash
