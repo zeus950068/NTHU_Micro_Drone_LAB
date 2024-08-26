@@ -186,7 +186,7 @@ export GAPY_OPENOCD_CABLE=~/Desktop/Greenwaves/gap8_openocd/tcl/interface/ftdi/o
 make clean all run PMSIS_OS=freertos platform=board
 ```
 
-&emsp
+##
 ## Install cfclient
 ```bash
 sudo apt install git python3-pip libxcb-xinerama0 libxcb-cursor0
