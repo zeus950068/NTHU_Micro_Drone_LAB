@@ -205,3 +205,5 @@ sudo docker run --rm -it -v $PWD:/module/ --device /dev/ttyUSB0 --privileged -P 
 ```
 
 go to https://github.com/bitcraze/aideck-gap8-examples/releases, download aideck_gap8_wifi_img_streamer_with_ap.bin, and paste to aideck-gap8-bootloader
+
+Let's rename \*our-new-project\* to \*our-old-project\*.
