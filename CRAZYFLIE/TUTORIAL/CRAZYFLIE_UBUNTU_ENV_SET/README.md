@@ -113,19 +113,33 @@ sudo apt-get install -y \
     wget
 ```
 
+Now clone the GAP/RISC-V toolchain
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap_riscv_toolchain_ubuntu.git
 cd gap_riscv_toolchain_ubuntu
 ./install.sh
 ```
 
+Clone the actual gap_sdk repository
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap_sdk.git
+```
+
+Configure the SDK
+```bash
 cd gap_sdk
 source sourceme.sh
 source configs/ai_deck.sh
+```
+
+Python requirements
+```bash
 pip3 install -r requirements.txt
 pip3 install -r doc/requirements.txt
+```
+
+SDK installation
+```bash
 make clean
 make sdk
 ```
