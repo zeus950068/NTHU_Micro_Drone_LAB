@@ -159,6 +159,8 @@ go back to original terminal
 ```bash
 exit
 ```
+![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/CRAZYFLIE_UBUNTU_ENV_SET/image/autotiler.png)
+
 ```bash
 make autotiler
 ```
