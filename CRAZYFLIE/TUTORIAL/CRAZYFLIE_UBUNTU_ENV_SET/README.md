@@ -83,7 +83,7 @@ cd Greenwaves
 git clone https://github.com/GreenWaves-Technologies/gap8_openocd.git
 ```
 
-### 1. The following packages need to be installed:
+* The following packages need to be installed:
 ```bash
 sudo apt-get install -y \
     autoconf \
