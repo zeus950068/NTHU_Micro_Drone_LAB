@@ -135,9 +135,10 @@ Setting up docker and the autotiler
 sudo docker run --rm -it --name myAiDeckContainer bitcraze/aideck
 ```
 
-<font color="red">Open a NEW terminal (原本的先不要關）</font>
-Open a NEW terminal (原本的先不要關）
+> [!WARNING]
+> Open a NEW terminal (DO NOT CLOSE THE ORIGINAL ONE)
 ```bash
+sudo docker commit myAiDeckContainer aideck-with-autotiler
 ```
 
 ```bash
