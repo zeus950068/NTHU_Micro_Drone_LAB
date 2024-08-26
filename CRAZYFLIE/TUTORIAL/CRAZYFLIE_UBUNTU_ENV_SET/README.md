@@ -7,4 +7,11 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install -f
 sudo apt-get remove chrome-chrome-stable
 ```
-1
+
+## Download Nvidia driver for dual monitor
+
+Check the available drivers for your hardware
+```bash
+sudo ubuntu-drivers list
+```
+sudo ubuntu-drivers install nvidia:535
