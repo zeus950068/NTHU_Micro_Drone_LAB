@@ -113,38 +113,38 @@ sudo apt-get install -y \
     wget
 ```
 
-### 2. Now clone the GAP/RISC-V toolchain
+* Now clone the GAP/RISC-V toolchain
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap_riscv_toolchain_ubuntu.git
 cd gap_riscv_toolchain_ubuntu
 ./install.sh
 ```
 
-### 3. Clone the actual gap_sdk repository
+* Clone the actual gap_sdk repository
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap_sdk.git
 ```
 
-### 4. Configure the SDK
+* Configure the SDK
 ```bash
 cd gap_sdk
 source sourceme.sh
 source configs/ai_deck.sh
 ```
 
-### 5. Python requirements
+* Python requirements
 ```bash
 pip3 install -r requirements.txt
 pip3 install -r doc/requirements.txt
 ```
 
-### 6. SDK installation
+* SDK installation
 ```bash
 make clean
 make sdk
 ```
 
-### 7. Setting up docker and the autotiler
+* Setting up docker and the autotiler
 ```bash
 sudo docker run --rm -it --name myAiDeckContainer bitcraze/aideck
 ```
@@ -165,7 +165,7 @@ exit
 make autotiler
 ```
 
-### 8. Install OpenOCD Rules
+* Install OpenOCD Rules
 * Copy openocd udev rules and reload udev rules
 ```bash
 # sudo cp <your openocd path>/openocd/contrib/60-openocd.rules /etc/udev/rules.d
@@ -179,7 +179,7 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 sudo usermod -a -G dialout user
 ```
 
-### 9. Finally try a test project
+* Finally try a test project
 ```bash
 cd examples/gap8/basic/helloworld
 export GAPY_OPENOCD_CABLE=~/Desktop/Greenwaves/gap8_openocd/tcl/interface/ftdi/olimex-arm-usb-tiny-h.cfg
