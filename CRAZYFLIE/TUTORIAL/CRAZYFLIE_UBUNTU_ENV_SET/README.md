@@ -178,3 +178,10 @@ sudo udevadm control --reload-rules && sudo udevadm trigger
 # sudo usermod -a -G dialout <username>
 sudo usermod -a -G dialout user
 ```
+
+### 9. Finally try a test project
+```bash
+cd examples/gap8/basic/helloworld
+export GAPY_OPENOCD_CABLE=~/Desktop/Greenwaves/gap8_openocd/tcl/interface/ftdi/olimex-arm-usb-tiny-h.cfg
+make clean all run PMSIS_OS=freertos platform=board
+```
