@@ -40,6 +40,7 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="0483", ATTRS{idProduct}=="5740", MODE="0664"
 EOF
 ```
 
+You can reload the udev-rules using the following
 ```bash
 sudo udevadm control --reload-rules
 sudo udevadm trigger
