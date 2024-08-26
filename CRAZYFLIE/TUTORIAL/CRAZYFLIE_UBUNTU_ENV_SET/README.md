@@ -159,3 +159,8 @@ go back to original terminal
 ```bash
 exit
 ```
+```bash
+make autotiler
+```
+
+### 8. Install OpenOCD Rules
