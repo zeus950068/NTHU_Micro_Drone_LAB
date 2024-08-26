@@ -186,7 +186,6 @@ export GAPY_OPENOCD_CABLE=~/Desktop/Greenwaves/gap8_openocd/tcl/interface/ftdi/o
 make clean all run PMSIS_OS=freertos platform=board
 ```
 
-##
 ## Install cfclient
 ```bash
 sudo apt install git python3-pip libxcb-xinerama0 libxcb-cursor0
@@ -194,3 +193,17 @@ pip3 install --upgrade pip
 python3 -m pip install pip setuptools --upgrade
 pip3 install cfclient
 ```
+
+## aideck-gap8-bootloader
+```bash
+cd ~/Desktop
+mkdir Bitcraze
+cd Bitcraze
+git clone https://github.com/bitcraze/aideck-gap8-bootloader.git
+cd aideck-gap8-bootloader
+sudo docker run --rm -it -v $PWD:/module/ --device /dev/ttyUSB0 --privileged -P bitcraze/aideck /bin/bash -c 'export GAPY_OPENOCD_CABLE=interface/ftdi/olimex-arm-usb-tiny-h.cfg; source /gap_sdk/configs/ai_deck.sh; cd /module/;  make all image flash'
+```
+
+go to https://github.com/bitcraze/aideck-gap8-examples/releases
+download aideck_gap8_wifi_img_streamer_with_ap.bin
+paste to aideck-gap8-bootloader
