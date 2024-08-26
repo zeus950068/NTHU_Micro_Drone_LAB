@@ -15,4 +15,8 @@ Check the available drivers for your hardware
 sudo ubuntu-drivers list
 ```
 ![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/CRAZYFLIE_UBUNTU_ENV_SET/image/nvidia_driver.png)
+
+Let’s assume we want to install the 535 driver
+```bash
 sudo ubuntu-drivers install nvidia:535
+```
