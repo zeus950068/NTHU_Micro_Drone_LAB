@@ -20,3 +20,12 @@ Let’s assume we want to install the 535 driver
 ```bash
 sudo ubuntu-drivers install nvidia:535
 ```
+
+## Install USB Permission
+```bash
+sudo groupadd plugdev
+sudo usermod -a -G plugdev $USER
+```
+
+```bash
+```
