@@ -47,7 +47,7 @@ sudo udevadm trigger
 ```
 
 ## Install Docker Engine
-1. Set up Docker's apt repository
+### 1. Set up Docker's apt repository
 ```bash
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -64,12 +64,12 @@ echo \
 sudo apt-get update
 ```
 
-2. Install the Docker packages
+### 2. Install the Docker packages
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-3. Verify that the Docker Engine installation is successful by running the hello-world
+### 3. Verify that the Docker Engine installation is successful by running the hello-world
 ```bash
 sudo docker run hello-world
 ```
@@ -83,7 +83,7 @@ cd Greenwaves
 git clone https://github.com/GreenWaves-Technologies/gap8_openocd.git
 ```
 
-1. The following packages need to be installed:
+### 1. The following packages need to be installed:
 ```bash
 sudo apt-get install -y \
     autoconf \
@@ -113,38 +113,38 @@ sudo apt-get install -y \
     wget
 ```
 
-2. Now clone the GAP/RISC-V toolchain
+### 2. Now clone the GAP/RISC-V toolchain
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap_riscv_toolchain_ubuntu.git
 cd gap_riscv_toolchain_ubuntu
 ./install.sh
 ```
 
-3. Clone the actual gap_sdk repository
+### 3. Clone the actual gap_sdk repository
 ```bash
 git clone https://github.com/GreenWaves-Technologies/gap_sdk.git
 ```
 
-4. Configure the SDK
+### 4. Configure the SDK
 ```bash
 cd gap_sdk
 source sourceme.sh
 source configs/ai_deck.sh
 ```
 
-5. Python requirements
+### 5. Python requirements
 ```bash
 pip3 install -r requirements.txt
 pip3 install -r doc/requirements.txt
 ```
 
-6. SDK installation
+### 6. SDK installation
 ```bash
 make clean
 make sdk
 ```
 
-7. Setting up docker and the autotiler
+### 7. Setting up docker and the autotiler
 ```bash
 sudo docker run --rm -it --name myAiDeckContainer bitcraze/aideck
 ```
