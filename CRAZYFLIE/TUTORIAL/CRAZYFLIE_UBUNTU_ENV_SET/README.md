@@ -74,3 +74,71 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 ![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/CRAZYFLIE_UBUNTU_ENV_SET/image/docker%20run.png)
+
+## GreenwWaves GAP_SDK
+```bash
+cd ~/Desktop
+mkdir Greenwaves
+cd Greenwaves
+git clone https://github.com/GreenWaves-Technologies/gap8_openocd.git
+```
+
+The following packages need to be installed:
+```bash
+sudo apt-get install -y \
+    autoconf \
+    automake \
+    bison \
+    build-essential \
+    cmake \
+    curl \
+    doxygen \
+    flex \
+    git \
+    gtkwave \
+    libftdi-dev \
+    libftdi1 \
+    libjpeg-dev \
+    libsdl2-dev \
+    libsdl2-ttf-dev \
+    libsndfile1-dev \
+    graphicsmagick-libmagick-dev-compat \
+    libtool \
+    libusb-1.0-0-dev \
+    pkg-config \
+    python3-pip \
+    rsync \
+    scons \
+    texinfo \
+    wget
+```
+
+```bash
+git clone https://github.com/GreenWaves-Technologies/gap_riscv_toolchain_ubuntu.git
+cd gap_riscv_toolchain_ubuntu
+./install.sh
+```
+
+```bash
+git clone https://github.com/GreenWaves-Technologies/gap_sdk.git
+cd gap_sdk
+source sourceme.sh
+source configs/ai_deck.sh
+pip3 install -r requirements.txt
+pip3 install -r doc/requirements.txt
+make clean
+make sdk
+```
+
+Setting up docker and the autotiler
+```bash
+sudo docker run --rm -it --name myAiDeckContainer bitcraze/aideck
+```
+
+<span style="color: red;">這段文字是紅色的。</span>
+Open a NEW terminal (原本的先不要關）
+```bash
+```
+
+```bash
+```
