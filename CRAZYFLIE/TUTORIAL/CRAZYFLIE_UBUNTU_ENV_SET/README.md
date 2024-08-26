@@ -185,7 +185,8 @@ cd examples/gap8/basic/helloworld
 export GAPY_OPENOCD_CABLE=~/Desktop/Greenwaves/gap8_openocd/tcl/interface/ftdi/olimex-arm-usb-tiny-h.cfg
 make clean all run PMSIS_OS=freertos platform=board
 ```
-<br>
+
+&emsp
 ## Install cfclient
 ```bash
 sudo apt install git python3-pip libxcb-xinerama0 libxcb-cursor0
