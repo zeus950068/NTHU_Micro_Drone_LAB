@@ -19,6 +19,7 @@ Let’s assume we want to install the 535 driver
 ```bash
 sudo ubuntu-drivers install nvidia:535
 ```
+<br /> 
 
 ## 3. Install USB Permission
 The following steps make it possible to use the USB Radio and Crazyflie 2 over USB without being root.
