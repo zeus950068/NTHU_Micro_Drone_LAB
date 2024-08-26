@@ -19,7 +19,7 @@ Let’s assume we want to install the 535 driver
 sudo ubuntu-drivers install nvidia:535
 ```
 
-## Install USB Permission
+## 3. Install USB Permission
 The following steps make it possible to use the USB Radio and Crazyflie 2 over USB without being root.
 ```bash
 sudo groupadd plugdev
@@ -46,7 +46,7 @@ sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
 
-## Install Docker Engine
+## 4. Install Docker Engine
 * 1. Set up Docker's apt repository
 ```bash
 # Add Docker's official GPG key:
@@ -75,7 +75,7 @@ sudo docker run hello-world
 ```
 ![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/CRAZYFLIE_UBUNTU_ENV_SET/image/docker%20run.png)
 
-## GreenwWaves GAP_SDK
+## 5. GreenwWaves GAP_SDK
 ```bash
 cd ~/Desktop
 mkdir Greenwaves
@@ -186,7 +186,7 @@ export GAPY_OPENOCD_CABLE=~/Desktop/Greenwaves/gap8_openocd/tcl/interface/ftdi/o
 make clean all run PMSIS_OS=freertos platform=board
 ```
 
-## Install cfclient
+## 6. Install cfclient
 ```bash
 sudo apt install git python3-pip libxcb-xinerama0 libxcb-cursor0
 pip3 install --upgrade pip
@@ -194,7 +194,7 @@ python3 -m pip install pip setuptools --upgrade
 pip3 install cfclient
 ```
 
-## aideck-gap8-bootloader
+## 7. Bitcraze (aideck-gap8-bootloader)
 ```bash
 cd ~/Desktop
 mkdir Bitcraze
