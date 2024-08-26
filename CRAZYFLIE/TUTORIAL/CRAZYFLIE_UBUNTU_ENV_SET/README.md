@@ -141,5 +141,7 @@ sudo docker run --rm -it --name myAiDeckContainer bitcraze/aideck
 sudo docker commit myAiDeckContainer aideck-with-autotiler
 ```
 
+go back to original terminal
 ```bash
+exit
 ```
