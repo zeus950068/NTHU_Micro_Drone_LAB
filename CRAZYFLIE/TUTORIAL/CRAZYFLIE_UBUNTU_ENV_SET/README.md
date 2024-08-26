@@ -47,7 +47,7 @@ sudo udevadm trigger
 ```
 
 ## Install Docker Engine
-### 1. Set up Docker's apt repository
+* 1. Set up Docker's apt repository
 ```bash
 # Add Docker's official GPG key:
 sudo apt-get update
@@ -64,12 +64,12 @@ echo \
 sudo apt-get update
 ```
 
-### 2. Install the Docker packages
+* 2. Install the Docker packages
 ```bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-### 3. Verify that the Docker Engine installation is successful by running the hello-world
+* 3. Verify that the Docker Engine installation is successful by running the hello-world
 ```bash
 sudo docker run hello-world
 ```
