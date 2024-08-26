@@ -194,7 +194,7 @@ python3 -m pip install pip setuptools --upgrade
 pip3 install cfclient
 ```
 
-## 7. Bitcraze (aideck-gap8-bootloader)
+## 7. Bitcraze ([aideck-gap8-bootloader](https://github.com/bitcraze/aideck-gap8-examples))
 ```bash
 cd ~/Desktop
 mkdir Bitcraze
@@ -212,3 +212,4 @@ cfloader flash aideck_gap8_wifi_img_streamer_with_ap.bin deck-bcAI:gap8-fw -w ra
 > [!TIP]
 > The bin file is at https://github.com/bitcraze/aideck-gap8-examples/releases
 
+## 8. Bitcraze ([crayflie-firmware](https://github.com/bitcraze/crazyflie-firmware))
