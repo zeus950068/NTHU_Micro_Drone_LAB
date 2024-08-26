@@ -223,4 +223,24 @@ make cf2_defconfig
 make -j 12
 ```
 
+* To set up wifi as access point
+**Download waggle-drone_defconfig [here]()**
+make waggle-drone_defconfig
+make -j 12
+make cload
+
 ## 9. Bitcraze ([aideck-gap8-examples](https://github.com/bitcraze/aideck-gap8-examples))
+```bash
+cd ~/Desktop/Bitcraze
+git clone https://github.com/bitcraze/aideck-gap8-examples.git
+cd aideck-gap8-examples
+sudo docker run --rm -v ${PWD}:/module aideck-with-autotiler tools/build/make-example examples/other/wifi-img-streamer image
+cfloader flash examples/other/wifi-img-streamer/BUILD/GAP8_V2/GCC_RISCV_FREERTOS/target.board.devices.flash.img deck-bcAI:gap8-fw -w radio://0/80/2M
+```
+
+```bash
+pip install opencv-python
+# cd <path/to/aideck-gap8-examples>/examples/other/wifi-img-streamer
+cd /home/user/Desktop/Bitcraze/aideck-gap8-examples/examples/other/wifi-img-streamer
+python opencv-viewer.py
+```
