@@ -6,7 +6,8 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt-get install -f
 sudo apt-get remove chrome-chrome-stable
 ```
-<br />  
+<br />
+<br /> 
 
 ## 2. Download Nvidia driver for dual monitor
 Check the available drivers for your hardware
@@ -19,6 +20,7 @@ Let’s assume we want to install the 535 driver
 ```bash
 sudo ubuntu-drivers install nvidia:535
 ```
+<br /> 
 <br /> 
 
 ## 3. Install USB Permission
@@ -47,6 +49,7 @@ You can reload the udev-rules using the following
 sudo udevadm control --reload-rules
 sudo udevadm trigger
 ```
+<br /> 
 <br /> 
 
 ## 4. Install Docker Engine
@@ -77,6 +80,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run hello-world
 ```
 ![image](https://github.com/zeus950068/NTHU_Micro_Drone_LAB/blob/main/CRAZYFLIE/TUTORIAL/CRAZYFLIE_UBUNTU_ENV_SET/image/docker%20run.png)
+<br /> 
 <br /> 
 
 ## 5. GreenwWaves GAP_SDK
@@ -190,6 +194,7 @@ export GAPY_OPENOCD_CABLE=~/Desktop/Greenwaves/gap8_openocd/tcl/interface/ftdi/o
 make clean all run PMSIS_OS=freertos platform=board
 ```
 <br /> 
+<br /> 
 
 ## 6. Install cfclient
 ```bash
@@ -198,6 +203,7 @@ pip3 install --upgrade pip
 python3 -m pip install pip setuptools --upgrade
 pip3 install cfclient
 ```
+<br /> 
 <br /> 
 
 ## 7. Bitcraze ([aideck-gap8-bootloader](https://github.com/bitcraze/aideck-gap8-examples))
