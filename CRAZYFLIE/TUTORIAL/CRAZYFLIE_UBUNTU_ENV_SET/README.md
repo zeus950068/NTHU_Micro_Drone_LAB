@@ -166,14 +166,14 @@ make autotiler
 ```
 
 ### 8. Install OpenOCD Rules
-。Copy openocd udev rules and reload udev rules
+* Copy openocd udev rules and reload udev rules
 ```bash
 # sudo cp <your openocd path>/openocd/contrib/60-openocd.rules /etc/udev/rules.d
 sudo cp ~/Desktop/Greenwaves/gap8_openocd/contrib/60-openocd.rules /etc/udev/rules.d
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
 
->Now, add your user to dialout group.
+* Now, add your user to dialout group.
 ```bash
 # sudo usermod -a -G dialout <username>
 sudo usermod -a -G dialout user
