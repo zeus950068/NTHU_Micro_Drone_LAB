@@ -166,8 +166,8 @@ make autotiler
 ```
 
 ### 8. Install OpenOCD Rules
-sudo cp <your openocd path>/openocd/contrib/60-openocd.rules /etc/udev/rules.d
 ```bash
+# sudo cp <your openocd path>/openocd/contrib/60-openocd.rules /etc/udev/rules.d
 sudo cp ~/Desktop/Greenwaves/gap8_openocd/contrib/60-openocd.rules /etc/udev/rules.d
 sudo udevadm control --reload-rules && sudo udevadm trigger
 ```
