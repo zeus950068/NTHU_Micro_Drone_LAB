@@ -21,3 +21,8 @@ pmsis_tools_frame_streamer.cpp位置:
 ```bash
 cd /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/libs/frame_streamer/python
 ```
+## 5. 回到路徑執行Makefile
+```bash
+cd /home/user/Desktop/Greenwaves/gap_riscv_toolchain_ubuntu/gap_sdk/libs/frame_streamer
+make clean all
+```
