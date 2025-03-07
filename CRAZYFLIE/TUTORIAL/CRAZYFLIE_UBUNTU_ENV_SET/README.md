@@ -226,6 +226,7 @@ cfloader flash aideck_gap8_wifi_img_streamer_with_ap.bin deck-bcAI:gap8-fw -w ra
 <br />
 
 ## 8. Bitcraze ([crayflie-firmware](https://github.com/bitcraze/crazyflie-firmware))
+### if your device is crazyflie 2.1
 ```bash
 cd ~/Desktop/Bitcraze
 sudo apt-get install make gcc-arm-none-eabi
@@ -233,6 +234,17 @@ sudo apt install build-essential libncurses5-dev
 git clone --recursive https://github.com/bitcraze/crazyflie-firmware.git
 cd crazyflie-firmware/
 make cf2_defconfig
+make -j 12
+```
+
+### if your device is crazyflie 2.1 brushless
+```bash
+cd ~/Desktop/Bitcraze
+sudo apt-get install make gcc-arm-none-eabi
+sudo apt install build-essential libncurses5-dev
+git clone --recursive https://github.com/bitcraze/crazyflie-firmware.git
+cd crazyflie-firmware/
+make cf21bl_defconfig
 make -j 12
 ```
 
